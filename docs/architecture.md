@@ -34,6 +34,12 @@ recoverability. The project uses disposable fixtures and checksum comparison to
 validate bounded restore claims, while avoiding claims about untested future
 datasets or recovery-time objectives.
 
+## Container-service boundary
+
+The first service design places a lightweight monitor on the secondary node so it can remain useful when the compute node is unavailable. The reviewed model keeps application data on local storage, publishes the interface only to host loopback for access through the existing private administrative path, pins the upstream release, defines an explicit health check and restart policy, and excludes daemon-socket access, privileged mode, host-path persistence, and unnecessary capabilities.
+
+Deployment is a separate gate from design. Recovery is also separate: the project will not claim service recoverability until an application-consistent recovery point and isolated restore pass. No public exposure, source-archive change, or backup-scope expansion is implied by the design.
+
 ## Portfolio/source-of-truth boundary
 
 The private repository and verified read-only observations govern operational
