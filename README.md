@@ -23,6 +23,15 @@ credentials, raw logs, screenshots, and unresolved security details.
 - A strict synthetic-or-public-data boundary: no PHI, patient-derived data,
   employer material, or proprietary clinical-system content
 
+## Current checkpoint
+
+- The secure Linux, private-access, storage, and repository-controlled change foundation is complete.
+- A repository-controlled local secondary-copy workflow has passed scheduled execution, fail-closed monitoring, and a checksum-verified isolated restore using approved synthetic scope.
+- One bounded, licensed, nonhuman public-image pilot proved quarantine, provenance and license review, checksum validation, canonical archiving, a controlled working copy, and an isolated restore. It did not create a release, process the image, or authorize bulk ingestion.
+- The container runtime and a disposable architecture-compatible test are verified. The first useful service has a reviewed, version-pinned, loopback-only deployment design, but no application service is deployed yet.
+
+Each claim is bounded to recorded evidence. The lab is not a clinical system, does not contain patient or employer data, and does not claim production readiness.
+
 ## Generalized architecture
 
 ```mermaid
