@@ -38,7 +38,7 @@ datasets or recovery-time objectives.
 
 The first service design places a lightweight monitor on the secondary node so it can remain useful when the compute node is unavailable. The reviewed model keeps application data on local storage, publishes the interface only to host loopback for access through the existing private administrative path, pins the upstream release, defines an explicit health check and restart policy, and excludes daemon-socket access, privileged mode, host-path persistence, and unnecessary capabilities.
 
-Deployment is a separate gate from design. Recovery is also separate: the project will not claim service recoverability until an application-consistent recovery point and isolated restore pass. No public exposure, source-archive change, or backup-scope expansion is implied by the design.
+Deployment and a bounded application-consistent recovery/isolated-restore exercise have now passed. A separate external observer detects absence of the monitoring producer, reducing the dependence on the monitored host to report its own failure. These verified milestones do not establish physical outage recovery or coverage for every resource. No public service exposure, source-archive change, or backup-scope expansion is implied.
 
 ## Portfolio/source-of-truth boundary
 
