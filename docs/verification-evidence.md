@@ -33,7 +33,11 @@ Recorded September 27 evidence includes live host-reachability checks, bounded r
 
 This demonstrates the tested alert paths, not continuous availability, a real power/ISP outage, or physical power-loss recovery. Broader compute-resource coverage, a fresh recovery point for the final configuration and stable observation remain open. The optional desktop notification implementation is not claimed as deployed.
 
-This September 28 projection reconciles the private repository's September 27 checkpoint and subsequent recipient-confirmation record. It introduces no live-system changes and claims no new device observation.
+The September 30 observation audit found sustained healthy local samples alongside a brief recovered external acknowledgment gap. The external observer recorded a corresponding downtime; its cause remains unknown. Retaining that failure and recovery evidence limits the availability claim instead of treating configuration or earlier delivery tests as proof of uninterrupted coverage.
+
+October 2 progress includes reviewed compute-monitoring source and authenticated access preparation. A hosted observer was prepared, but the privileged producer installation, credential provisioning, activation and end-to-end acceptance remain pending. Broader compute coverage is therefore still an open gate.
+
+This October 2 projection reconciles saved operational checkpoints through that date. It performs no live-device observation or configuration change. It does not publish the private provider, resource identifiers, access details or raw logs.
 
 These are bounded claims. They do not imply production readiness, regulatory
 validation, clinical use, continuous availability, or protection of any data

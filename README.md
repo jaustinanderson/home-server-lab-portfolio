@@ -29,7 +29,7 @@ credentials, raw logs, screenshots, and unresolved security details.
 - A repository-controlled local secondary-copy workflow has passed scheduled execution, fail-closed monitoring, and a checksum-verified isolated restore using approved synthetic scope.
 - One bounded, licensed, nonhuman public-image pilot proved quarantine, provenance and license review, checksum validation, canonical archiving, a controlled working copy, and an isolated restore. It did not create a release, process the image, or authorize bulk ingestion.
 - The private monitoring service is deployed. Persistence and controlled reboot recovery passed, followed by an isolated application-consistent restore and a separate synthetic update/rollback rehearsal.
-- Host-reachability and bounded resource/service monitoring have been exercised, including controlled notification delivery. An independent missing-heartbeat path produced owner-confirmed failure and recovery notifications. Final configuration recovery and broader compute coverage remain separate open gates.
+- Host-reachability and bounded resource/service monitoring have been exercised, including controlled notification delivery. An independent missing-heartbeat path produced owner-confirmed failure and recovery notifications. Recorded observation also includes a recovered external acknowledgment gap with unknown cause. Compute monitoring is prepared but awaits installation and end-to-end acceptance; final configuration recovery and broader coverage remain open gates.
 
 Each claim is bounded to recorded evidence. The lab is not a clinical system, does not contain patient or employer data, and does not claim production readiness.
 
